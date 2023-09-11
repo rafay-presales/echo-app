@@ -14,7 +14,7 @@ nameOverride: ""
 fullnameOverride: ""
 deployment:
   # used to specify commit sha in CI job
-  commit: 550e1e74c096bf6717ff9d52695bb2b592a344d4
+  commit: e2742e53f7567208990385c89d3ab7e11101f115
   annotations:
     app.komodor.com/app: https://github.com/km-demos/echo-app
     link.argocd.argoproj.io/external-link: https://app.komodor.com/main/deep-dive/kurt-madel.demo-cluster-echo-app.echo-app
